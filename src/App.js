@@ -4,7 +4,7 @@ import { ThemeProvider, createMuiTheme } from "@material-ui/core";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
-
+import QuotesCategories from "./components/QuotesCategories/QuotesCategories";
 const font = "Open Sans";
 const theme = createMuiTheme({
   typography: {
@@ -19,9 +19,11 @@ function App() {
     <div>
       <ThemeProvider theme={theme}>
         <Router>
+        {/* Home route */}
           <Route>
             <Navbar />
             <Home />
+            <QuotesCategories/>
           </Route>
         </Router>
       </ThemeProvider>

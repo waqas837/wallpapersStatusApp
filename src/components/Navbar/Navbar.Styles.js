@@ -2,6 +2,16 @@ import { makeStyles } from "@material-ui/core";
 
 var green = "#00e676";
 const useStyles = makeStyles((theme) => ({
+  quoty: {
+    letterSpacing: "30px",
+    color: green,
+    fontWeight: "bolder",
+    [theme.breakpoints.down("sm")]: {
+      letterSpacing: "10px",
+      color: green,
+      fontWeight: "bolder",
+    },
+  },
   grow: {
     flexGrow: 1,
     [theme.breakpoints.down("sm")]: {

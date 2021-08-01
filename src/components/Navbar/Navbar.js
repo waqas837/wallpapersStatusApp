@@ -10,7 +10,8 @@ import {
   Hidden,
   IconButton,
   makeStyles,
-  Toolbar, Typography,
+  Toolbar,
+  Typography,
 } from "@material-ui/core";
 import {
   BurstMode,
@@ -21,7 +22,7 @@ import {
   SupervisorAccount,
 } from "@material-ui/icons";
 import { grey } from "@material-ui/core/colors";
-import {useStyles,green} from "./Navbar.Styles"
+import { useStyles, green } from "./Navbar.Styles";
 
 const Navbar = () => {
   const classes = useStyles();
@@ -104,9 +105,11 @@ const Navbar = () => {
             </Button>
           </Box>
           <Hidden only={["xl", "lg", "md"]}>
-          <Box>
-            <Typography style={{letterSpacing:"30px",color:green,fontWeight:"bolder"}} variant="h5">QUOTY</Typography>
-          </Box>
+            <Box>
+              <Typography className={classes.quoty} variant="h5">
+                QUOTY
+              </Typography>
+            </Box>
             <Box ml="auto">
               <IconButton onClick={() => setopendrawer(true)}>
                 <Menu fontSize="small" className={classes.menuButton} />
