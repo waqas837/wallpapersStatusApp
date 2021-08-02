@@ -9,5 +9,10 @@ const useStyels = makeStyles((theme) => ({
     color: "white",
     fontWeight: "bolder",
   },
+  backgroundimg: {
+    "&:hover": {
+      border: "2px solid skyblue",
+     },
+  },
 }));
 export { useStyels };

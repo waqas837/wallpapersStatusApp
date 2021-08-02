@@ -63,7 +63,7 @@ const Navbar = () => {
             </Button>
             <Button
               component={NavLink}
-              to="/courses"
+              to="/qoutes"
               exact
               activeClassName={classes.activeLink}
               style={{ fontSize: "12px" }}
@@ -74,7 +74,7 @@ const Navbar = () => {
             <Button
               style={{ fontSize: "12px" }}
               component={NavLink}
-              to="/quotes"
+              to="/authors"
               exact
               activeClassName={classes.activeLink}
               size="small"
@@ -84,7 +84,7 @@ const Navbar = () => {
             <Button
               style={{ fontSize: "12px" }}
               component={NavLink}
-              to="/authors"
+              to="/wallpapers"
               exact
               activeClassName={classes.activeLink}
               size="small"

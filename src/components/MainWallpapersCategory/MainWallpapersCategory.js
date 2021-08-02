@@ -1,6 +1,6 @@
 import { Box, Container, Grid, Typography } from "@material-ui/core";
 import React from "react";
-import { useStyels } from "./MainCourseCategory.Styles";
+import { useStyels } from "./MainWallpapersCategory.Styles";
 import dummyimg from "../../images/img4.jpg";
 const MainCourseCategory = () => {
   const categories = [

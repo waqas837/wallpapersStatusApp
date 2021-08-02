@@ -7,7 +7,7 @@ import image4 from "../../images/img4.jpg";
 import image5 from "../../images/imge1.jpg";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import MainCourseCategory from "../MainCourseCategory/MainCourseCategory";
+import MainWallpapersCategory from "../MainWallpapersCategory/MainWallpapersCategory";
 const QuotesCategories = () => {
   return (
     <div>
@@ -86,7 +86,7 @@ const QuotesCategories = () => {
       </Hidden>
       </Box>
       {/* catogories */}
-      <MainCourseCategory/>
+      <MainWallpapersCategory/>
     </div>
   );
 };
