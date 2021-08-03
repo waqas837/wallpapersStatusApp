@@ -7,6 +7,7 @@ import Home from "./components/Home/Home";
 import QuotesCategories from "./components/QuotesCategories/QuotesCategories";
 import QuotesPage from "./components/QuotesPage/QuotesPage";
 import AuthorsPage from "./components/AuthorsPage/AuthorsPage";
+import WallpapersPage from "./components/WallpapersPage/WallpapersPage";
 const font = "Open Sans";
 const theme = createMuiTheme({
   typography: {
@@ -36,6 +37,11 @@ function App() {
            <Route exact path="/authors">
           <Navbar />
           <AuthorsPage/>
+          </Route>
+          {/* Authors Route */}
+          <Route exact path="/wallpapers">
+          <Navbar />
+          <WallpapersPage/>
           </Route>
         </Router>
       </ThemeProvider>

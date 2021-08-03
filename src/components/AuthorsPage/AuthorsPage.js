@@ -58,7 +58,6 @@ const AuthorsPage = () => {
                     {val.author}
                   </Typography>
                 </Box>
-                 
               </div>
             </Grid>
           ))}
